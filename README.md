@@ -4,7 +4,7 @@ An interactive visual lab for Spark execution, shuffles, and stateful streaming.
 
 ## Try it in your browser
 
-**[Download the offline lab ZIP](https://github.com/GauravSinha-SDE/pyspark-under-the-hood/releases/download/v1.0.0/PySpark-Under-the-Hood-Offline.zip)** · **[Download the single HTML file](https://github.com/GauravSinha-SDE/pyspark-under-the-hood/releases/download/v1.0.0/index.html)**
+**[Download the offline lab ZIP](https://github.com/GauravSinha-SDE/pyspark-under-the-hood/releases/download/v1.1.0/PySpark-Under-the-Hood-Offline.zip)** · **[Download the single HTML file](https://github.com/GauravSinha-SDE/pyspark-under-the-hood/releases/download/v1.1.0/index.html)**
 
 Open the downloaded HTML in your browser. If you use the release ZIP, extract it and open `PySpark Under the Hood.html`.
 
@@ -25,9 +25,15 @@ You can also open `index.html` on GitHub and use **Download raw file** to save j
 - **Streaming state:** compare 200 and 800 state partitions while keeping the executor and core counts unchanged.
 - **Spark UI:** connect task progress, core utilization and timelines to a simplified Spark UI.
 
+The live **What is happening now** panel explains the current stage and shows its partition/core/wave arithmetic. Click any partition, core or state store to pause and inspect its task, assigned slot, size, timing and reason for waiting. Expand the scheduler event log to see dispatch and completion events.
+
+Record walkthroughs show a local projection, keyed shuffle counts, and a stateful micro-batch update. The concept guide explains lazy execution, jobs/stages/tasks, waves, AQE and checkpoint constraints. Relevant PySpark lines are highlighted for the active or inspected stage.
+
 Use Run, Pause, Step and the draggable Job timeline. Try Idle cores, Task waves or Skewed data. Beginner mode uses plain-language explanations; Technical mode adds scheduler assumptions and checkpoint constraints. The expand button hides the sidebar for teaching.
 
 ![PySpark Under the Hood visual lab](assets/preview.jpg)
+
+![Inspect a task and understand why it waits](assets/teaching-detail.jpg)
 
 ## Model assumptions
 
