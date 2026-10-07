@@ -4,6 +4,12 @@ An interactive visual lab for Spark execution, shuffles, and stateful streaming.
 
 ## Try it in your browser
 
+**[Download the offline lab ZIP](https://github.com/GauravSinha-SDE/pyspark-under-the-hood/releases/download/v1.0.0/PySpark-Under-the-Hood-Offline.zip)** · **[Download the single HTML file](https://github.com/GauravSinha-SDE/pyspark-under-the-hood/releases/download/v1.0.0/index.html)**
+
+Open the downloaded HTML in your browser. If you use the release ZIP, extract it and open `PySpark Under the Hood.html`.
+
+Or download the complete source repository:
+
 1. Click **Code → Download ZIP** above.
 2. Extract the ZIP.
 3. Double-click **index.html**, or use **Open With** to select your browser.
